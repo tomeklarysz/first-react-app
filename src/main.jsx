@@ -8,9 +8,10 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Greeting />
+    {/* <Greeting /> */}
     {/* has to be capitalized! */}
-    <ImageDisplay />
-    <Description />
+    {/* <ImageDisplay /> */}
+    {/* <Description /> */}
+    <App />
   </StrictMode>,
 )
